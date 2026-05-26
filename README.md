@@ -44,3 +44,62 @@ This project showcases how to deploy a **static website** using **Amazon S3** wi
 ## 🌐 Live Website  
 http://jeet-static-website-123.s3-website.ap-south-1.amazonaws.com
 
+
+---
+
+## 📂 Folder Structure
+
+
+---
+
+## 📝 What I Learned
+
+- How to host a static website on **AWS S3**  
+- How to configure **bucket policies** for public access  
+- How to fix common permission errors (403/404)  
+- How S3 **Static Website Hosting** works  
+- How to upload and manage project files with **GitHub**  
+- Understanding **S3 URL vs Website Endpoint**  
+
+---
+
+## 🖼 Screenshots
+
+### 📌 1. S3 Bucket Overview  
+![S3 Bucket](screenshots/s3-bucket.png)
+
+### 📌 2. Static Hosting Settings  
+![Static Hosting](screenshots/s3-static-hosting.png)
+
+### 📌 3. Bucket Policy Configuration  
+![Bucket Policy](screenshots/s3-bucket-policy.png)
+
+### 📌 4. Live Website Preview  
+![Website Preview](screenshots/website-preview.png)
+
+---
+
+## 🏁 How to Run
+
+No installation required.  
+Simply open the **S3 Website Endpoint** in your browser.
+
+---
+
+## 📘 Future Improvements
+
+- Add custom domain using Route 53  
+- Add HTTPS using CloudFront  
+- Add backend using AWS Lambda  
+- Add CI/CD pipeline with GitHub Actions  
+
+---
+
+## 🤝 Connect With Me
+
+- **LinkedIn:** Your link here  
+- **GitHub:** Your profile link here  
+
+---
+
+<p align="center">Made with ❤️ using Amazon S3 + GitHub</p>
