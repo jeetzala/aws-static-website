@@ -1,105 +1,103 @@
-<h1 align="center">🌐 AWS Static Website Hosting Project</h1>
+# 🌐 AWS Static Website Hosting — Portfolio Project
 
-<p align="center">
-  Deploying a fully static website on <b>Amazon S3</b> with public hosting, bucket policies, and GitHub version control.
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Cloud-AWS-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Hosting-S3-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Frontend-HTML%2FCSS-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Version%20Control-GitHub-black?style=for-the-badge">
-</p>
+This project demonstrates how to deploy a **fully hosted static website** using **Amazon S3**, following best practices for S3 hosting, bucket policies, folder structure, and public access configurations.  
+This project is part of my AWS Cloud learning and showcases my understanding of **S3, CloudFront basics, hosting, GitHub version control, and documentation**.
 
 ---
 
-## 🚀 Overview
+## 🚀 Live Demo  
 
-This project showcases how to deploy a **static website** using **Amazon S3** with public access controls, bucket policies, and static website hosting enabled. The website is uploaded directly to an S3 bucket and served to the internet using AWS's built-in hosting capabilities.
-
----
-
-## 🧩 Features
-
-- 🌍 Static Website Hosting on Amazon S3  
-- 🔐 Correct public access & bucket policies  
-- 📁 Organized folder structure  
-- ⚡ Fast hosting without servers  
-- 🧪 Tested live on S3 endpoint  
-- 🛠 Version controlled using Git & GitHub  
+🔗 **Hosted Website:**  
+👉 http://jeet-static-website-123.s3-website.ap-south-1.amazonaws.com
 
 ---
 
-## 🛠 Tech Stack
-
-| Area | Technology |
-|------|------------|
-| Cloud Platform | Amazon S3 |
-| Frontend | HTML, CSS |
-| Tools | Git, GitHub |
-| Hosting | S3 Static Website Hosting |
+## 📁 Project Structure
 
 ---
 
-## 🌐 Live Website  
-http://jeet-static-website-123.s3-website.ap-south-1.amazonaws.com
-
-
----
-
-## 📂 Folder Structure
-
+## 🧰 Tech Used
+- **Amazon S3** (Static Website Hosting)
+- **HTML + CSS**
+- **Bucket Policies**
+- **Public Access Configuration**
+- **GitHub Version Control**
 
 ---
 
-## 📝 What I Learned
+## 📸 Screenshots
 
-- How to host a static website on **AWS S3**  
-- How to configure **bucket policies** for public access  
-- How to fix common permission errors (403/404)  
-- How S3 **Static Website Hosting** works  
-- How to upload and manage project files with **GitHub**  
-- Understanding **S3 URL vs Website Endpoint**  
-
----
-
-## 🖼 Screenshots
-
-### 📌 1. S3 Bucket Overview  
+### 🪣 1. S3 Bucket Created
 ![S3 Bucket](screenshots/s3-bucket.png)
 
-### 📌 2. Static Hosting Settings  
+---
+
+### 🌍 2. Static Website Hosting Enabled
 ![Static Hosting](screenshots/s3-static-hosting.png)
 
-### 📌 3. Bucket Policy Configuration  
+---
+
+### 🔐 3. Bucket Policy Applied
 ![Bucket Policy](screenshots/s3-bucket-policy.png)
 
-### 📌 4. Live Website Preview  
+---
+
+### 🖥️ 4. Website Working Preview
 ![Website Preview](screenshots/website-preview.png)
 
 ---
 
-## 🏁 How to Run
+## 📘 How This Works (Short Explanation)
 
-No installation required.  
-Simply open the **S3 Website Endpoint** in your browser.
+### ✔️ Step 1 — Create S3 Bucket  
+- Bucket name must match your domain OR any name (for S3 URL).  
+- Region selected (ap-south-1 recommended).
 
----
+### ✔️ Step 2 — Enable Static Website Hosting  
+- Upload `index.html` and `styles.css`.  
+- Set index document: `index.html`.
 
-## 📘 Future Improvements
+### ✔️ Step 3 — Make Bucket Public  
+- Turn off **Block Public Access**.  
+- Apply bucket policy allowing public read.
 
-- Add custom domain using Route 53  
-- Add HTTPS using CloudFront  
-- Add backend using AWS Lambda  
-- Add CI/CD pipeline with GitHub Actions  
-
----
-
-## 🤝 Connect With Me
-
-- **LinkedIn:** Your link here  
-- **GitHub:** Your profile link here  
+### ✔️ Step 4 — Website Goes Live  
+Your site becomes accessible via your S3 website endpoint.
 
 ---
 
-<p align="center">Made with ❤️ using Amazon S3 + GitHub</p>
+## 💼 What I Learned
+- Configuring **S3 Static Hosting**
+- Understanding bucket security vs public access
+- Applying JSON bucket policies
+- Git basics: commit, push, folder structuring
+- Writing professional READMEs & documenting cloud projects
+
+---
+
+## 🧩 How to Deploy It Yourself
+1. Create an S3 bucket  
+2. Turn off public block  
+3. Enable static hosting  
+4. Upload HTML + CSS files  
+5. Apply bucket policy (public read)  
+6. Open the S3 website URL  
+7. Done! 🎉
+
+---
+
+## 🏷️ Project Tags
+`AWS` `S3` `Static Website` `Frontend` `Cloud Hosting` `DevOps Basics` `HTML` `CSS`
+
+---
+
+## 🔗 Connect With Me
+
+**GitHub:** https://github.com/jeetzala
+**LinkedIn:** www.linkedin.com/in/
+jeet-zala-6633832ba
+
+---
+
+## 🏆 Credits  
+Built by **Jeet Zala** as part of my AWS Cloud learning journey.  
