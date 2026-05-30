@@ -1,4 +1,4 @@
-# 🌐 AWS Static Website Hosting — Portfolio Project
+# 🌐 AWS Static Website Hosting 
 
 This project demonstrates how to deploy a **fully hosted static website** using **Amazon S3**, following best practices for S3 hosting, bucket policies, folder structure, and public access configurations.  
 This project is part of my AWS Cloud learning and showcases my understanding of **S3, CloudFront basics, hosting, GitHub version control, and documentation**.
